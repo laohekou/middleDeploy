@@ -1,0 +1,29 @@
+{
+    "name": "yan9/middleDeploy",
+    "description": "Laravel package",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*"
+    },
+    "authors": [
+        {
+            "name": "young.zheng",
+            "email": "young.zheng@etocrm.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yan9\\MiddleDeploy\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yan9\\MiddleDeploy\\MiddleDeployServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
